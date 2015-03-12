@@ -1,0 +1,350 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		184C86C61AB1339000E2EF51 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 184C86C51AB1339000E2EF51 /* QuartzCore.framework */; };
+		184C86C91AB14CFA00E2EF51 /* DSAExamQOptionButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 184C86C81AB14CF900E2EF51 /* DSAExamQOptionButton.m */; };
+		184C86CC1AB15B4D00E2EF51 /* DSACheckButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 184C86CB1AB15B4D00E2EF51 /* DSACheckButton.m */; };
+		187ECB031AB0251F00E7CB41 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 187ECB021AB0251F00E7CB41 /* UIKit.framework */; };
+		187ECB051AB0251F00E7CB41 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 187ECB041AB0251F00E7CB41 /* Foundation.framework */; };
+		187ECB071AB0251F00E7CB41 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 187ECB061AB0251F00E7CB41 /* CoreGraphics.framework */; };
+		187ECB0D1AB0251F00E7CB41 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 187ECB0B1AB0251F00E7CB41 /* InfoPlist.strings */; };
+		187ECB0F1AB0251F00E7CB41 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 187ECB0E1AB0251F00E7CB41 /* main.m */; };
+		187ECB131AB0251F00E7CB41 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 187ECB121AB0251F00E7CB41 /* AppDelegate.m */; };
+		187ECB151AB0251F00E7CB41 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 187ECB141AB0251F00E7CB41 /* Default.png */; };
+		187ECB171AB0251F00E7CB41 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 187ECB161AB0251F00E7CB41 /* Default@2x.png */; };
+		187ECB191AB0251F00E7CB41 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 187ECB181AB0251F00E7CB41 /* Default-568h@2x.png */; };
+		187ECB1C1AB0251F00E7CB41 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 187ECB1B1AB0251F00E7CB41 /* ViewController.m */; };
+		187ECB1F1AB0251F00E7CB41 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 187ECB1D1AB0251F00E7CB41 /* ViewController.xib */; };
+		187ECB281AB0254900E7CB41 /* DSAExamViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 187ECB261AB0254800E7CB41 /* DSAExamViewController.m */; };
+		187ECB291AB0254900E7CB41 /* DSAExamViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 187ECB271AB0254900E7CB41 /* DSAExamViewController.xib */; };
+		187ECB2C1AB0294800E7CB41 /* DSAExamQuestionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 187ECB2B1AB0294700E7CB41 /* DSAExamQuestionView.m */; };
+		187ECB2F1AB02A1700E7CB41 /* DSAExamQuestionBottomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 187ECB2E1AB02A1700E7CB41 /* DSAExamQuestionBottomView.m */; };
+		187ECB321AB039C200E7CB41 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 187ECB311AB039C100E7CB41 /* Person.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		184C86C51AB1339000E2EF51 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		184C86C71AB14CF900E2EF51 /* DSAExamQOptionButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSAExamQOptionButton.h; sourceTree = "<group>"; };
+		184C86C81AB14CF900E2EF51 /* DSAExamQOptionButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSAExamQOptionButton.m; sourceTree = "<group>"; };
+		184C86CA1AB15B4D00E2EF51 /* DSACheckButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSACheckButton.h; sourceTree = "<group>"; };
+		184C86CB1AB15B4D00E2EF51 /* DSACheckButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSACheckButton.m; sourceTree = "<group>"; };
+		187ECAFF1AB0251F00E7CB41 /* DSAExamDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DSAExamDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		187ECB021AB0251F00E7CB41 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		187ECB041AB0251F00E7CB41 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		187ECB061AB0251F00E7CB41 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		187ECB0A1AB0251F00E7CB41 /* DSAExamDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DSAExamDemo-Info.plist"; sourceTree = "<group>"; };
+		187ECB0C1AB0251F00E7CB41 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		187ECB0E1AB0251F00E7CB41 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		187ECB101AB0251F00E7CB41 /* DSAExamDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DSAExamDemo-Prefix.pch"; sourceTree = "<group>"; };
+		187ECB111AB0251F00E7CB41 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		187ECB121AB0251F00E7CB41 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		187ECB141AB0251F00E7CB41 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		187ECB161AB0251F00E7CB41 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		187ECB181AB0251F00E7CB41 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		187ECB1A1AB0251F00E7CB41 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		187ECB1B1AB0251F00E7CB41 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		187ECB1E1AB0251F00E7CB41 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		187ECB251AB0254800E7CB41 /* DSAExamViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSAExamViewController.h; sourceTree = "<group>"; };
+		187ECB261AB0254800E7CB41 /* DSAExamViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSAExamViewController.m; sourceTree = "<group>"; };
+		187ECB271AB0254900E7CB41 /* DSAExamViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DSAExamViewController.xib; sourceTree = "<group>"; };
+		187ECB2A1AB0294700E7CB41 /* DSAExamQuestionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSAExamQuestionView.h; sourceTree = "<group>"; };
+		187ECB2B1AB0294700E7CB41 /* DSAExamQuestionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSAExamQuestionView.m; sourceTree = "<group>"; };
+		187ECB2D1AB02A1700E7CB41 /* DSAExamQuestionBottomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSAExamQuestionBottomView.h; sourceTree = "<group>"; };
+		187ECB2E1AB02A1700E7CB41 /* DSAExamQuestionBottomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSAExamQuestionBottomView.m; sourceTree = "<group>"; };
+		187ECB301AB039C100E7CB41 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		187ECB311AB039C100E7CB41 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		187ECAFC1AB0251F00E7CB41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				184C86C61AB1339000E2EF51 /* QuartzCore.framework in Frameworks */,
+				187ECB031AB0251F00E7CB41 /* UIKit.framework in Frameworks */,
+				187ECB051AB0251F00E7CB41 /* Foundation.framework in Frameworks */,
+				187ECB071AB0251F00E7CB41 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		187ECAF61AB0251F00E7CB41 = {
+			isa = PBXGroup;
+			children = (
+				184C86C51AB1339000E2EF51 /* QuartzCore.framework */,
+				187ECB081AB0251F00E7CB41 /* DSAExamDemo */,
+				187ECB011AB0251F00E7CB41 /* Frameworks */,
+				187ECB001AB0251F00E7CB41 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		187ECB001AB0251F00E7CB41 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				187ECAFF1AB0251F00E7CB41 /* DSAExamDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		187ECB011AB0251F00E7CB41 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				187ECB021AB0251F00E7CB41 /* UIKit.framework */,
+				187ECB041AB0251F00E7CB41 /* Foundation.framework */,
+				187ECB061AB0251F00E7CB41 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		187ECB081AB0251F00E7CB41 /* DSAExamDemo */ = {
+			isa = PBXGroup;
+			children = (
+				187ECB111AB0251F00E7CB41 /* AppDelegate.h */,
+				187ECB121AB0251F00E7CB41 /* AppDelegate.m */,
+				187ECB1A1AB0251F00E7CB41 /* ViewController.h */,
+				187ECB1B1AB0251F00E7CB41 /* ViewController.m */,
+				187ECB1D1AB0251F00E7CB41 /* ViewController.xib */,
+				187ECB251AB0254800E7CB41 /* DSAExamViewController.h */,
+				187ECB261AB0254800E7CB41 /* DSAExamViewController.m */,
+				187ECB271AB0254900E7CB41 /* DSAExamViewController.xib */,
+				187ECB2A1AB0294700E7CB41 /* DSAExamQuestionView.h */,
+				187ECB2B1AB0294700E7CB41 /* DSAExamQuestionView.m */,
+				187ECB2D1AB02A1700E7CB41 /* DSAExamQuestionBottomView.h */,
+				187ECB2E1AB02A1700E7CB41 /* DSAExamQuestionBottomView.m */,
+				184C86C71AB14CF900E2EF51 /* DSAExamQOptionButton.h */,
+				184C86C81AB14CF900E2EF51 /* DSAExamQOptionButton.m */,
+				184C86CA1AB15B4D00E2EF51 /* DSACheckButton.h */,
+				184C86CB1AB15B4D00E2EF51 /* DSACheckButton.m */,
+				187ECB301AB039C100E7CB41 /* Person.h */,
+				187ECB311AB039C100E7CB41 /* Person.m */,
+				187ECB091AB0251F00E7CB41 /* Supporting Files */,
+			);
+			path = DSAExamDemo;
+			sourceTree = "<group>";
+		};
+		187ECB091AB0251F00E7CB41 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				187ECB0A1AB0251F00E7CB41 /* DSAExamDemo-Info.plist */,
+				187ECB0B1AB0251F00E7CB41 /* InfoPlist.strings */,
+				187ECB0E1AB0251F00E7CB41 /* main.m */,
+				187ECB101AB0251F00E7CB41 /* DSAExamDemo-Prefix.pch */,
+				187ECB141AB0251F00E7CB41 /* Default.png */,
+				187ECB161AB0251F00E7CB41 /* Default@2x.png */,
+				187ECB181AB0251F00E7CB41 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		187ECAFE1AB0251F00E7CB41 /* DSAExamDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 187ECB221AB0251F00E7CB41 /* Build configuration list for PBXNativeTarget "DSAExamDemo" */;
+			buildPhases = (
+				187ECAFB1AB0251F00E7CB41 /* Sources */,
+				187ECAFC1AB0251F00E7CB41 /* Frameworks */,
+				187ECAFD1AB0251F00E7CB41 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DSAExamDemo;
+			productName = DSAExamDemo;
+			productReference = 187ECAFF1AB0251F00E7CB41 /* DSAExamDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		187ECAF71AB0251F00E7CB41 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = apple;
+			};
+			buildConfigurationList = 187ECAFA1AB0251F00E7CB41 /* Build configuration list for PBXProject "DSAExamDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 187ECAF61AB0251F00E7CB41;
+			productRefGroup = 187ECB001AB0251F00E7CB41 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				187ECAFE1AB0251F00E7CB41 /* DSAExamDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		187ECAFD1AB0251F00E7CB41 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				187ECB0D1AB0251F00E7CB41 /* InfoPlist.strings in Resources */,
+				187ECB151AB0251F00E7CB41 /* Default.png in Resources */,
+				187ECB171AB0251F00E7CB41 /* Default@2x.png in Resources */,
+				187ECB191AB0251F00E7CB41 /* Default-568h@2x.png in Resources */,
+				187ECB1F1AB0251F00E7CB41 /* ViewController.xib in Resources */,
+				187ECB291AB0254900E7CB41 /* DSAExamViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		187ECAFB1AB0251F00E7CB41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				187ECB0F1AB0251F00E7CB41 /* main.m in Sources */,
+				187ECB131AB0251F00E7CB41 /* AppDelegate.m in Sources */,
+				187ECB1C1AB0251F00E7CB41 /* ViewController.m in Sources */,
+				187ECB281AB0254900E7CB41 /* DSAExamViewController.m in Sources */,
+				187ECB2C1AB0294800E7CB41 /* DSAExamQuestionView.m in Sources */,
+				187ECB2F1AB02A1700E7CB41 /* DSAExamQuestionBottomView.m in Sources */,
+				187ECB321AB039C200E7CB41 /* Person.m in Sources */,
+				184C86C91AB14CFA00E2EF51 /* DSAExamQOptionButton.m in Sources */,
+				184C86CC1AB15B4D00E2EF51 /* DSACheckButton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		187ECB0B1AB0251F00E7CB41 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				187ECB0C1AB0251F00E7CB41 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		187ECB1D1AB0251F00E7CB41 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				187ECB1E1AB0251F00E7CB41 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		187ECB201AB0251F00E7CB41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		187ECB211AB0251F00E7CB41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		187ECB231AB0251F00E7CB41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DSAExamDemo/DSAExamDemo-Prefix.pch";
+				INFOPLIST_FILE = "DSAExamDemo/DSAExamDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		187ECB241AB0251F00E7CB41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DSAExamDemo/DSAExamDemo-Prefix.pch";
+				INFOPLIST_FILE = "DSAExamDemo/DSAExamDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		187ECAFA1AB0251F00E7CB41 /* Build configuration list for PBXProject "DSAExamDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				187ECB201AB0251F00E7CB41 /* Debug */,
+				187ECB211AB0251F00E7CB41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		187ECB221AB0251F00E7CB41 /* Build configuration list for PBXNativeTarget "DSAExamDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				187ECB231AB0251F00E7CB41 /* Debug */,
+				187ECB241AB0251F00E7CB41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 187ECAF71AB0251F00E7CB41 /* Project object */;
+}
